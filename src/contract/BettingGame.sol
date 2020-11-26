@@ -107,7 +107,7 @@ contract BettingGame is VRFConsumerBase {
   }
 
   /**
-   * Send reward to the winers
+   * Send reward to the winners
    */
   function verdict(uint256 random) public payable onlyVFRC {
     //take bets from latest betting round one by one
